@@ -1,0 +1,91 @@
+:root {
+  --title-text-color: #443E3E;
+  --info-title-text-color: #443E3E;
+  --info-text-text-color: #646469;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', Arial, sans-serif;
+  font-style: normal;
+}
+.main-page {
+  display: grid;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--title-text-color);
+}
+
+.info {
+  margin-bottom: 50px;
+}
+.info-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: var(--info-title-text-color);
+  padding-bottom: 10px;
+}
+.info-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+
+  width: 208px;
+  color: var(--info-text-text-color);
+}
+.info-icon {
+  padding-bottom: 20px;
+}
+.info-item-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  list-style: none;
+}
+
+.categories-first {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.categories-first-item {
+  position: relative;
+}
+
+.categories-second {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  gap: 30px;
+}
+.categories-second-item {
+  position: relative;
+}
+
+.hover-text {
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+
+  color: #FFF;
+}
