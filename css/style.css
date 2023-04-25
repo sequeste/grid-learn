@@ -22,11 +22,11 @@ a {
 }
 
 .title {
-  margin-top: 100px;
+  padding-top: 100px;
   margin-bottom: 50px;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 48px;
   color: var(--title-text-color);
 }
@@ -73,7 +73,6 @@ a {
 .categories-second {
   display: grid;
   grid-template-columns: 0.5fr 0.5fr 0.5fr;
-  gap: 30px;
 }
 .categories-second-item {
   position: relative;
