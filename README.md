@@ -1,1 +1,1 @@
-# grid-learn
+Изучение CSS Grid Layout
